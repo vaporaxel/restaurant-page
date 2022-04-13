@@ -1,7 +1,9 @@
-*{
-    background-color: gray;
+
+.header{
+    padding: 100px;
+    text-align: center;
+    justify-content: center;
 }
-a{
-    width: 200px;
-    height: 100px;
+.header-image{
+    width: 100%;
 }

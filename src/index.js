@@ -1,5 +1,6 @@
 import './style.css';
-import Image from '../src/cover-template-image.jpeg'
+import {pageLoad} from './pageLoad';
 
 
-alert('Index.js is working')
+
+pageLoad()
