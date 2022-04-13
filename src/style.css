@@ -7,3 +7,12 @@
 .header-image{
     width: 100%;
 }
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+li{
+    list-style: none;
+    margin: 0 20px;
+}

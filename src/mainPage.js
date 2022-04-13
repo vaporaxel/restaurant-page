@@ -1,4 +1,4 @@
-function pageLoad(){
+function mainPageLoad(){
     let content = document.getElementById('content')
     // Create elements
     let header = document.createElement('div')
@@ -21,4 +21,4 @@ function pageLoad(){
     header.appendChild(headerImage)
     header.appendChild(headerText)
 }
-export  {pageLoad};
+export  {mainPageLoad};
