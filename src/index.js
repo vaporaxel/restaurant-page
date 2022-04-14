@@ -4,6 +4,8 @@ import {menuPageLoad} from './menuPage';
 import {contactPageLoad} from './contactPage';
 
 
+// menuPageLoad()
+
 // Add menu items
 let home = document.getElementById('home');
 let menu = document.getElementById('menu');

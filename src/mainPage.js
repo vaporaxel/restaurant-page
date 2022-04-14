@@ -1,5 +1,20 @@
 function mainPageLoad(){
+
+    // Remove other pages (elements of their functions)
+    let oldHeader = document.querySelector('#content')
+    let oldItemCard = document.querySelector('.item-card')
+
+    oldHeader.innerHTML = ''
+    oldHeader.innerText = ''
+    // oldItemCard.innerHTML = ''
+    // oldItemCard.classList.remove('item-card')
+
+    
+    
+
+    // Select content container
     let content = document.getElementById('content')
+
     // Create elements
     let header = document.createElement('div')
     let headerImage = document.createElement('div')
@@ -20,5 +35,7 @@ function mainPageLoad(){
     header.appendChild(mainTitle)
     header.appendChild(headerImage)
     header.appendChild(headerText)
+
+    return
 }
 export  {mainPageLoad};
