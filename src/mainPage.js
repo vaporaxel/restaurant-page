@@ -24,7 +24,7 @@ function mainPageLoad(){
     // Inner content of elements created
     mainTitle.innerText = 'Welcome to Our Restaurant Page'
     headerText.innerText = 'This restaurant is so cool and obviously you will end up loving it!'
-    headerImage.innerHTML = "<img src=\"../src/cover-template-image.jpeg\">";
+    headerImage.innerHTML = "<img src=\"https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1\">";
 
     // Add classes to specific created elements
     header.className = 'header'
